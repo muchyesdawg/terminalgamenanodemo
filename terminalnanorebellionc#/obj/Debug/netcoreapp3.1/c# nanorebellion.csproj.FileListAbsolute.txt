@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\c# nanorebellion\bin\Debug\netcoreapp3.1\c# nanorebellion.exe
+C:\Users\user\Desktop\c# nanorebellion\bin\Debug\netcoreapp3.1\c# nanorebellion.deps.json
+C:\Users\user\Desktop\c# nanorebellion\bin\Debug\netcoreapp3.1\c# nanorebellion.runtimeconfig.json
+C:\Users\user\Desktop\c# nanorebellion\bin\Debug\netcoreapp3.1\c# nanorebellion.runtimeconfig.dev.json
+C:\Users\user\Desktop\c# nanorebellion\bin\Debug\netcoreapp3.1\c# nanorebellion.dll
+C:\Users\user\Desktop\c# nanorebellion\bin\Debug\netcoreapp3.1\c# nanorebellion.pdb
+C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.csprojAssemblyReference.cache
+C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.AssemblyInfo.cs
+C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.dll
+C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.pdb
+C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.genruntimeconfig.cache

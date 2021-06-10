@@ -9,7 +9,7 @@ namespace c__nanorebellion
             Console.Title = "Nanorebellion";
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("what class are you? (type help for help)");
-            var action = Console.ReadLine();
+            string action = Console.ReadLine();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 //this is made by markus au
 namespace c__nanorebellion
 {
@@ -6,50 +7,51 @@ namespace c__nanorebellion
     {
         static void Main(string[] args)
         {
-          // 1 is barbarian
-          // 2 is sorcerer
-          // 3 is archer
-          // 4 is bard
-          Console.Title = "Nanorebellion";
-          Console.ForegroundColor = ConsoleColor.Green;
-          Console.WriteLine("what class are you? (type help for help)");
-            
+            //
+            // 1 is barbarian
+            // 2 is sorcerer
+            // 3 is archer
+            // 4 is bard
+            Console.Title = "Nanorebellion";
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("what class are you? (type help for help)");
+
             string action = Console.ReadLine();
-            Console.WriteLine("___________________________________________________");
-            Console.WriteLine(" \     _     _     _______     _     _   _______   \ ");
-            Console.WriteLine("  \    \\   / \    \ | \ \     \\   / \  \ \  \ \   \ ");
-            Console.WriteLine("   \    \\ // \\    \ \_\ \     \\ // \\  \ \  \ \   \ ");
-            Console.WriteLine("    \    \_/   \\    \ \ \ \     \_/   \\  \_\__\_\   \ ");
-            Console.WriteLine("     \    _                                            \ ");
-            Console.WriteLine("      \   \\                                            \ ");
-            Console.WriteLine("       \                                                 \ ");
-            Console.WriteLine("        \_________________________________________________\ ");
+            //ingeneral
+            bool askAgain = false;
+
+            //setting out the class
+            int classint = 0;
             Console.WriteLine("what class do you want to be? (type help for help)");
-            void defineclass(){
-              String class = Console.ReadLine();
-              if (class == "help")
-              {
-                Console.WriteLine("do you want to be a fierce barbarian?")
-                Console.WriteLine("or a wise sorcerer?")
-                Console.WriteLine("or a speedy archer?")
-                console.WriteLine("or a charismatic bard?")
-                Console.WriteLine("So, what do you want to be?")
-              }
-              else if (class=="barbarian") {
-                public float playerclass = 1;
-              }
-              else if (class=="sorcerer") {
-                public float playerclass = 2;
-              }
-              else if (class=="archer") {
-                public float playerclass = 3;
-              }
-              else if (class=="bard") {
-                public float playerclass = 4;
-              }
-              else {
-                Console.WriteLine("bruh no seriously what do you want to be?");
-              }
+            void defineclass() {
+                string playerclass = Console.ReadLine();
+                if (playerclass == "help")
+                {
+                  Console.WriteLine("do you want to be a fierce barbarian?");
+                  Console.WriteLine("or a wise sorcerer?");
+                  Console.WriteLine("or a speedy archer?");
+                  Console.WriteLine("or a charismatic bard?");
+                  Console.WriteLine("what do you want to be?");
+                }
+                else if(playerclass == "barbarian"){
+                  classint = 1;
+                }
+                else if (playerclass == "sorcerer"){
+                  classint = 2;
+                }
+                else if (playerclass == "archer"){
+                  classint = 3;
+                }
+                else if(playerclass == "bard"){
+                  classint = 4;
+                }
+                else{
+                  askAgain = true;
+                }
+            }
+            if(askAgain == true){
+              Console.WriteLine("no seriously what do you want to be?");
+              defineclass();
             }
         }
     }

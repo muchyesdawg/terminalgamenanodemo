@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\c# nanorebellion\\c# nanorebellion.csproj",
+      "projectUniqueName": "C:\\git repos\\terminalgamenanodemo\\terminalnanorebellionc#\\c# nanorebellion.csproj",
       "projectName": "c# nanorebellion",
-      "projectPath": "C:\\Users\\user\\Desktop\\c# nanorebellion\\c# nanorebellion.csproj",
+      "projectPath": "C:\\git repos\\terminalgamenanodemo\\terminalnanorebellionc#\\c# nanorebellion.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\c# nanorebellion\\obj\\",
+      "outputPath": "C:\\git repos\\terminalgamenanodemo\\terminalnanorebellionc#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

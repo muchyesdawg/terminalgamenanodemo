@@ -11,3 +11,9 @@ C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.
 C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.dll
 C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.pdb
 C:\Users\user\Desktop\c# nanorebellion\obj\Debug\netcoreapp3.1\c# nanorebellion.genruntimeconfig.cache
+C:\git repos\terminalgamenanodemo\terminalnanorebellionc#\obj\Debug\netcoreapp3.1\c# nanorebellion.csprojAssemblyReference.cache
+C:\git repos\terminalgamenanodemo\terminalnanorebellionc#\obj\Debug\netcoreapp3.1\c# nanorebellion.AssemblyInfoInputs.cache
+C:\git repos\terminalgamenanodemo\terminalnanorebellionc#\obj\Debug\netcoreapp3.1\c# nanorebellion.AssemblyInfo.cs
+C:\git repos\terminalgamenanodemo\terminalnanorebellionc#\obj\Debug\netcoreapp3.1\c# nanorebellion.csproj.CoreCompileInputs.cache
+C:\git repos\terminalgamenanodemo\terminalnanorebellionc#\obj\Debug\netcoreapp3.1\c# nanorebellion.dll
+C:\git repos\terminalgamenanodemo\terminalnanorebellionc#\obj\Debug\netcoreapp3.1\c# nanorebellion.pdb

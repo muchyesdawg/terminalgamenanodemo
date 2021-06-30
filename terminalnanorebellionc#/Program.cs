@@ -7,52 +7,38 @@ namespace c__nanorebellion
     {
         static void Main(string[] args)
         {
-            //
-            // 1 is barbarian
-            // 2 is sorcerer
-            // 3 is archer
-            // 4 is bard
-            Console.Title = "Nanorebellion";
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("what class are you? (type help for help)");
+var cities = new Dictionary<string, string>(){
+	{"UK", "London, Manchester, Birmingham"},
+	{"USA", "Chicago, New York, Washington"},
+	{"India", "Mumbai, New Delhi, Pune"}
+};
 
-            string action = Console.ReadLine();
-            //ingeneral
-            bool askAgain = false;
+Console.WriteLine(cities["UK"]); //prints value of UK key
+Console.WriteLine(cities["USA"]);//prints value of USA key
+//Console.WriteLine(cities["France"]); // run-time exception: Key does not exist
 
-            //setting out the class
-            int classint = 0;
-            Console.WriteLine("what class do you want to be? (type help for help)");
-            void defineclass() {
-                string playerclass = Console.ReadLine();
-                if (playerclass == "help")
-                {
-                  Console.WriteLine("do you want to be a fierce barbarian?");
-                  Console.WriteLine("or a wise sorcerer?");
-                  Console.WriteLine("or a speedy archer?");
-                  Console.WriteLine("or a charismatic bard?");
-                  Console.WriteLine("what do you want to be?");
-                }
-                else if(playerclass == "barbarian"){
-                  classint = 1;
-                }
-                else if (playerclass == "sorcerer"){
-                  classint = 2;
-                }
-                else if (playerclass == "archer"){
-                  classint = 3;
-                }
-                else if(playerclass == "bard"){
-                  classint = 4;
-                }
-                else{
-                  askAgain = true;
-                }
-            }
-            if(askAgain == true){
-              Console.WriteLine("no seriously what do you want to be?");
-              defineclass();
-            }
+//use ContainsKey() to check for an unknown key
+if(cities.ContainsKey("France")){  
+    Console.WriteLine(cities["France"]);
+}
+
+//use TryGetValue() to get a value of unknown key
+string result;
+
+if(cities.TryGetValue("France", out result))
+{
+    Console.WriteLine(result);
+}
+
+//use ElementAt() to retrieve key-value pair using index
+for (int i = 0; i < cities.Count; i++)
+{
+    Console.WriteLine("Key: {0}, Value: {1}", 
+                                            cities.ElementAt(i).Key, 
+                                            cities.ElementAt(i).Value);
+}
+            
+
         }
     }
 }
